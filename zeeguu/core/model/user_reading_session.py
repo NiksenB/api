@@ -2,7 +2,7 @@ from datetime import datetime
 
 from zeeguu.core.model import User, Article
 
-from zeeguu.core.constants import *
+from zeeguu.core.constants import READING_SESSION_TIMEOUT
 from zeeguu.core.util.encoding import datetime_to_json
 from zeeguu.core.util.time import human_readable_duration, human_readable_date
 from sqlalchemy.sql.functions import sum

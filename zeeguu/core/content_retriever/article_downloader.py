@@ -10,7 +10,10 @@ import newspaper
 from time import time
 from pymysql import DataError
 
-from zeeguu.core.content_retriever.crawler_exceptions import *
+from zeeguu.core.content_retriever.crawler_exceptions import (FailedToParseWithReadabilityServer,
+                                                              SkippedAlreadyInDB,
+                                                              SkippedForLowQuality,
+                                                              SkippedForTooOld)
 from zeeguu.logging import log, logp
 
 from zeeguu.core import model

@@ -15,7 +15,9 @@ from zeeguu.core.content_quality.quality_filter import (
 )
 from tools.crawl_summary.crawl_report import CrawlReport
 
-from zeeguu.core.test.mocking_the_web import *
+from zeeguu.core.test.mocking_the_web import (URL_LEMONDE_VOLS_AMERICAINS, URL_ML_JP_PAYWALL,
+                                              URL_NEWSCIENTIST_FISH, URL_ONION_US_MILITARY,
+                                              URL_PROPUBLICA_INVESTING, mock_readability_call)
 
 
 class TestRetrieveAndCompute(ModelTestMixIn):
