@@ -1,6 +1,3 @@
-import random
-import re
-from datetime import timedelta
 
 from zeeguu.core.test.rules.base_rule import BaseRule
 from zeeguu.core.model.bookmark_context import BookmarkContext

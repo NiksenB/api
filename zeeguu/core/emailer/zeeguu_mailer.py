@@ -1,4 +1,3 @@
-from smtplib import SMTP
 
 import yagmail
 import zeeguu

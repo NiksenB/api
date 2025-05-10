@@ -1,4 +1,3 @@
-from zeeguu.api.test.fixtures import client
 from zeeguu.core.model import db, UniqueCode
 import json
 

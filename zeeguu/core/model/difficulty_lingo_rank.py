@@ -1,4 +1,3 @@
-import zeeguu.core
 from sqlalchemy import Column, Integer, ForeignKey, Float
 from sqlalchemy.orm import relationship
 from sqlalchemy.orm.exc import NoResultFound

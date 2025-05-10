@@ -10,7 +10,6 @@ from zeeguu.core.model.language import Language
 from zeeguu.core.model.url import Url
 from zeeguu.core.feed_handler import FEED_TYPE_TO_FEED_HANDLER
 
-import zeeguu
 
 from zeeguu.core.model import db
 

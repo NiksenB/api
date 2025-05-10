@@ -1,5 +1,4 @@
 from fixtures import (
-    logged_in_client as client,
     add_context_types,
     add_source_types,
     create_and_get_article,

@@ -2,7 +2,6 @@ import random
 
 from sqlalchemy.orm.exc import NoResultFound
 
-import zeeguu.core
 from zeeguu.core.test.rules.base_rule import BaseRule
 from zeeguu.core.model.exercise_source import ExerciseSource
 

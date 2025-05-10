@@ -1,5 +1,4 @@
 import sqlalchemy
-import zeeguu.core
 
 from zeeguu.core.model import db
 

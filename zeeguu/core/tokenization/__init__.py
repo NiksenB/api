@@ -1,4 +1,3 @@
-from .token import Token
 from .stanza_tokenizer import StanzaTokenizer
 from .nltk_tokenizer import NLTKTokenizer
 from .zeeguu_tokenizer import TokenizerModel

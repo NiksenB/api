@@ -1,7 +1,7 @@
 from elasticsearch import Elasticsearch
 
 from zeeguu.core.elastic.settings import ES_CONN_STRING, ES_ZINDEX
-from elasticsearch_dsl import Search, Q
+from elasticsearch_dsl import Search
 
 
 def es_update(id, body):

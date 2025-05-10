@@ -5,7 +5,7 @@ from zeeguu.core.semantic_search import (
 from zeeguu.core.model import Article, Language, ArticleTopicMap
 from sklearn.metrics import classification_report
 
-from zeeguu.core.elastic.settings import ES_CONN_STRING, ES_ZINDEX
+from zeeguu.core.elastic.settings import ES_CONN_STRING
 from elasticsearch import Elasticsearch
 from collections import Counter
 import pandas as pd

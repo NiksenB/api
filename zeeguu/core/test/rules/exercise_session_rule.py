@@ -1,4 +1,3 @@
-import random
 
 from zeeguu.core.model import UserExerciseSession
 from zeeguu.core.test.rules.base_rule import BaseRule

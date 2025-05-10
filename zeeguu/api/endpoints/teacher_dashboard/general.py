@@ -16,11 +16,9 @@ from ._permissions import (
 from zeeguu.api.utils.route_wrappers import requires_session
 from .. import api
 
-import zeeguu.core
 from zeeguu.core.model import Cohort
 
 
-from zeeguu.core.model import db
 
 
 @api.route("/is_teacher", methods=["GET"])

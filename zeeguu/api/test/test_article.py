@@ -1,8 +1,6 @@
 from zeeguu.core.test.mocking_the_web import (
-    URL_SPIEGEL_VENEZUELA,
     URL_FAZ_LEIGHTATHLETIK,
 )
-from fixtures import logged_in_client as client
 from fixtures import add_context_types, add_source_types, create_and_get_article
 
 

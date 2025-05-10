@@ -1,4 +1,4 @@
-from fixtures import logged_in_client as client, add_source_types, add_context_types
+from fixtures import add_source_types, add_context_types
 from zeeguu.core.test.mocking_the_web import URL_SPIEGEL_VENEZUELA
 
 

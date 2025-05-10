@@ -2,7 +2,6 @@ from .user import User
 from .bookmark import Bookmark
 from .language import Language
 
-import zeeguu.core
 
 from zeeguu.core.model import db
 

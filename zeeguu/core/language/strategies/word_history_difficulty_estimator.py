@@ -1,10 +1,10 @@
 from numpy import mean
-from wordstats import Word, WordInfo
+from wordstats import Word
 from zeeguu.core import model
 from zeeguu.core.language.difficulty_estimator_strategy import DifficultyEstimatorStrategy
 from zeeguu.core.util.text import split_words_from_text
 from nltk.stem import SnowballStemmer
-from collections import defaultdict, Counter
+from collections import Counter
 
 from zeeguu.core.constants import WIH_READ_CLICKED, WIH_READ_NOT_CLICKED_IN_SENTENCE, WIH_READ_NOT_CLICKED_OUT_SENTENCE, \
     WIH_WRONG_EX_RECOGNIZE, \

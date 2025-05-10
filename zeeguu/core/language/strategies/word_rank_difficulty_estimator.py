@@ -3,7 +3,6 @@ import string
 from zeeguu.core import model
 from zeeguu.core.language.difficulty_estimator_strategy import DifficultyEstimatorStrategy
 import nltk
-import math
 import re
 from wordstats import Word
 from textblob import TextBlob

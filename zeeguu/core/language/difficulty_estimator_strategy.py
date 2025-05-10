@@ -36,4 +36,3 @@ class DifficultyEstimatorStrategy:
         estimation values, such as: normalized, discrete, median or average
         """
 
-        pass

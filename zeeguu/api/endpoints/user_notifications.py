@@ -12,7 +12,7 @@ from zeeguu.core.content_recommender.elastic_recommender import (
     article_recommendations_for_user,
 )
 from zeeguu.core.model.session import Session
-from datetime import datetime, timedelta
+from datetime import datetime
 
 NOTIFICATION_TYPES = {
     "EXERCISES": {

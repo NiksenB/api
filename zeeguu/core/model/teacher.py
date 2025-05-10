@@ -2,7 +2,6 @@ from zeeguu.core.model.teacher_cohort_map import TeacherCohortMap
 from sqlalchemy import Column, Integer, ForeignKey
 from sqlalchemy.orm import relationship
 from zeeguu.core.model import User
-import zeeguu.core
 
 from zeeguu.core.model import db
 

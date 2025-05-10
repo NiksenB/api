@@ -1,17 +1,16 @@
 # coding=utf-8
 import sqlalchemy as database
 from zeeguu.api.app import create_app
-from zeeguu.core.elastic.indexing import create_or_update_article, document_from_article
+from zeeguu.core.elastic.indexing import create_or_update_article
 from sqlalchemy import func
 from elasticsearch import Elasticsearch
-import zeeguu.core
 from sqlalchemy.orm import sessionmaker
 from zeeguu.core.model import Article
 import sys
 from datetime import datetime
 from sqlalchemy.orm.exc import NoResultFound
 
-from zeeguu.core.elastic.settings import ES_ZINDEX, ES_CONN_STRING
+from zeeguu.core.elastic.settings import ES_CONN_STRING
 
 app = create_app()
 app.app_context().push()

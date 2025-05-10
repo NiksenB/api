@@ -5,9 +5,7 @@ from zeeguu.core.model.url import Url
 from zeeguu.core.model.feedback_component import FeedbackComponent
 from datetime import datetime
 
-import sqlalchemy
 
-import zeeguu.core
 
 from zeeguu.core.model import db
 

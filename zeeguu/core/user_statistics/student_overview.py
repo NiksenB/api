@@ -1,4 +1,3 @@
-import zeeguu.core
 from .exercise_corectness import (
     exercise_count_and_correctness_percentage,
     number_of_distinct_words_in_exercises,
@@ -8,7 +7,6 @@ from .exercise_corectness import (
 from .exercise_sessions import total_time_in_exercise_sessions
 from .reading_sessions import summarize_reading_activity
 
-from zeeguu.core.model import db
 
 
 def student_activity_overview(user_id, cohort_id, start_date: str, end_date: str):

@@ -1,7 +1,5 @@
 import random
 
-from sqlalchemy.exc import OperationalError
-from sqlalchemy.orm.exc import NoResultFound, ObjectDeletedError
 
 from zeeguu.core.test.rules.base_rule import BaseRule
 from zeeguu.core.model.topic import Topic

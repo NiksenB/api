@@ -1,6 +1,5 @@
 import os
 
-import sys
 
 
 def load_configuration_or_abort(app, environ_variable, mandatory_config_keys=[]):

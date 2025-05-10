@@ -2,11 +2,9 @@ import functools
 import flask
 from werkzeug.exceptions import BadRequestKeyError
 
-from zeeguu.logging import log
 from zeeguu.core.model.session import Session
 
 from datetime import datetime, timedelta
-import zeeguu
 
 SESSION_CACHE = {}
 SESSION_CACHE_TIMEOUT = 60  # Seconds

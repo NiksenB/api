@@ -24,7 +24,6 @@ from zeeguu.core.constants import (
 from zeeguu.core.behavioral_modeling import (
     find_last_reading_percentage,
 )
-import zeeguu
 
 from zeeguu.core.model import db
 

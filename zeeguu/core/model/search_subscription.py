@@ -3,7 +3,6 @@ from sqlalchemy.orm import relationship
 from zeeguu.api.utils.abort_handling import make_error
 from zeeguu.core.model.user import User
 import sqlalchemy
-import zeeguu.core
 
 from zeeguu.core.model import db
 from zeeguu.core.model.search import Search

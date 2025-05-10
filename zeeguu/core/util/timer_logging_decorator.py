@@ -1,6 +1,5 @@
 import time
 
-import zeeguu.core
 from zeeguu.logging import info
 
 

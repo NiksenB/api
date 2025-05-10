@@ -1,4 +1,3 @@
-from fixtures import logged_in_client as client, add_one_bookmark
 
 
 def test_start_new_reading_session(client):

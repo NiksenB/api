@@ -2,7 +2,6 @@ from datetime import datetime
 
 from zeeguu.core.constants import (
     EVENT_USER_FEEDBACK,
-    EVENT_LIKE_ARTICLE,
     EVENT_OPEN_ARTICLE,
 )
 from zeeguu.logging import log

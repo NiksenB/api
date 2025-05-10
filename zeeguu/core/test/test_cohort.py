@@ -5,7 +5,6 @@ from zeeguu.core.test.model_test_mixin import ModelTestMixIn
 import zeeguu.core
 from zeeguu.core.test.rules.cohort_rule import CohortRule
 from zeeguu.core.model.teacher import Teacher
-from zeeguu.core.model.teacher_cohort_map import TeacherCohortMap
 
 db_session = zeeguu.core.model.db.session
 

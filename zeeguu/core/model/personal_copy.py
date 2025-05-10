@@ -3,7 +3,6 @@ from zeeguu.core.model.user import User
 from sqlalchemy import Column, Integer, ForeignKey, desc
 from sqlalchemy.orm import relationship
 
-import zeeguu
 
 from zeeguu.core.model import db
 

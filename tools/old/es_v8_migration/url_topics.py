@@ -7,7 +7,6 @@ import zeeguu.core
 from time import time
 from tqdm import tqdm
 from pprint import pprint
-from collections import Counter
 import numpy as np
 
 """

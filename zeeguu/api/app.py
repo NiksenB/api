@@ -2,7 +2,6 @@
 from zeeguu.config.loader import load_configuration_or_abort
 from flask_cors import CORS
 from flask import Flask
-import time
 import os
 import re
 import zeeguu

@@ -11,7 +11,7 @@ from zeeguu.core.semantic_vector_api import (
 )
 from zeeguu.core.model.video_topic_map import VideoTopicMap
 from zeeguu.core.model.video import MAX_CHAR_COUNT_IN_SUMMARY
-from elasticsearch_dsl import Search, Q
+from elasticsearch_dsl import Search
 
 
 def get_doc_in_es(es_id: str, get_source_dict=True, verbose=False):

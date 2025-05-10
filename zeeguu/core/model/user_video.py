@@ -1,13 +1,11 @@
 from datetime import datetime
 
-from sqlalchemy import or_
 from zeeguu.core.model import db
 from zeeguu.core.model.user import User
 from zeeguu.core.model.video import Video
 from sqlalchemy.orm.exc import NoResultFound
 
 from zeeguu.core.model.video_caption_context import VideoCaptionContext
-from zeeguu.core.util.encoding import datetime_to_json
 
 
 class UserVideo(db.Model):
@@ -132,7 +130,6 @@ class UserVideo(db.Model):
     ):
         from zeeguu.core.model import Bookmark
         from zeeguu.core.model.video_title_context import VideoTitleContext
-        from zeeguu.core.model.user_activitiy_data import UserActivityData
 
         returned_info = video.video_info(with_content=with_content)
         user_video_info = UserVideo.find(user, video)

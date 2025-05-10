@@ -1,7 +1,6 @@
 from faker import Faker
 from sqlalchemy.exc import InvalidRequestError
 
-import zeeguu.core.model
 
 
 class BaseRule:

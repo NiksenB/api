@@ -59,7 +59,6 @@
 
 from datetime import datetime, timedelta
 
-from numpy import number
 from zeeguu.core.model.word_to_study import WordToStudy
 from zeeguu.core.model import Bookmark, UserWord
 from sqlalchemy.orm.exc import NoResultFound

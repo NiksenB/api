@@ -1,11 +1,9 @@
-import zeeguu.core
 from zeeguu.core.user_statistics.student_overview import student_activity_overview
 from ._common_api_parameters import _get_student_cohort_and_period_from_POST_params
 from .. import api
 from zeeguu.api.utils import json_result, requires_session
 
 
-from zeeguu.core.model import db
 
 
 @api.route("/student_activity_overview", methods=["POST"])

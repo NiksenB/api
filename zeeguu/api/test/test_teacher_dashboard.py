@@ -1,4 +1,3 @@
-from fixtures import logged_in_teacher as client
 
 
 def test_is_teacher(client):

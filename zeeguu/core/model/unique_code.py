@@ -1,7 +1,6 @@
 from datetime import datetime
 from random import randint
 
-import zeeguu.core
 from sqlalchemy import func
 
 from zeeguu.core.model import db

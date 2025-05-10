@@ -5,7 +5,6 @@ from sqlalchemy.orm import relationship
 
 from zeeguu.core.model import User
 
-import zeeguu.core
 
 from zeeguu.core.model import db
 

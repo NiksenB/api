@@ -1,7 +1,6 @@
 from zeeguu.core.test.rules.article_rule import ArticleRule
 from zeeguu.core.test.rules.base_rule import BaseRule
 from zeeguu.core.test.rules.language_rule import LanguageRule
-from zeeguu.core.test.rules.url_rule import UrlRule
 from zeeguu.core.model.text import Text
 
 

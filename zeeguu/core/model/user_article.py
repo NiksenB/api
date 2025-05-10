@@ -7,7 +7,6 @@ from sqlalchemy import (
     DateTime,
     Boolean,
     or_,
-    desc,
 )
 from sqlalchemy.orm import relationship
 from sqlalchemy.orm.exc import NoResultFound

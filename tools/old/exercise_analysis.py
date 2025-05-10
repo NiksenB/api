@@ -7,7 +7,7 @@ os.environ["zeeguu.core_CONFIG"] = os.path.expanduser(
     "~/.config/zeeguu/gomarus_anon_analysis.cfg"
 )
 
-from zeeguu.core.model import Exercise, User, ExerciseOutcome
+from zeeguu.core.model import User, ExerciseOutcome
 import zeeguu.core
 
 
@@ -51,7 +51,6 @@ def print_bookmark_history(_bookmark):
             and _previous_exercise.source == _exercise.source
         ):
             print(f"... retry ... {_exercise}")
-            pass
         else:
             print(f"-- {_exercise.outcome.outcome} -- {_exercise}")
             _previous_time = _exercise.time
@@ -105,7 +104,6 @@ for user in all_users:
                 ):
                     if interactive:
                         print(f"... retry ... {exercise}")
-                    pass
                 else:
                     if interactive:
                         print(f"-- {exercise.outcome.outcome} -- {exercise}")

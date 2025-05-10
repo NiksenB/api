@@ -1,12 +1,8 @@
 import re
-from urllib.parse import urlparse
-from urllib.request import urlopen
 
 import sqlalchemy.orm
-from requests import Request
 from sqlalchemy import UniqueConstraint
 
-import zeeguu.core
 import time
 import random
 

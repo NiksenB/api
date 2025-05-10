@@ -1,6 +1,5 @@
 from datetime import datetime
 
-import zeeguu.core
 from sqlalchemy import Column, DateTime, ForeignKey, Integer
 from sqlalchemy.orm import relationship
 from sqlalchemy.orm.exc import NoResultFound

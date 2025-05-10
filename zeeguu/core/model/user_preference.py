@@ -5,9 +5,8 @@ from datetime import time
 
 from zeeguu.core.model.user import User
 
-from zeeguu.logging import log, logp
+from zeeguu.logging import log
 
-import zeeguu
 
 from zeeguu.core.model import db
 

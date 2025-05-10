@@ -3,9 +3,7 @@ import json
 import flask
 import sqlalchemy
 from flask import request, jsonify
-from sqlalchemy.orm.exc import NoResultFound
 
-import zeeguu.core
 from zeeguu.core.model import (
     User,
     Cohort,
@@ -14,7 +12,6 @@ from zeeguu.core.model import (
     CohortArticleMap,
     Teacher,
 )
-from zeeguu.core.model.user_reading_session import UserReadingSession
 from ._common_api_parameters import _convert_number_of_days_to_date_interval
 from ._only_teachers_decorator import only_teachers
 from .helpers import (

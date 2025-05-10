@@ -1,5 +1,4 @@
 from fixtures import (
-    logged_in_client as client,
     add_one_bookmark,
     add_context_types,
     add_source_types,
@@ -27,7 +26,7 @@ def test_last_bookmark_added_is_first_in_bookmarks_by_day(client):
 
 
 def test_contribute_own_translation(client):
-    import json
+    pass
 
     add_context_types()
     add_source_types()

@@ -1,12 +1,10 @@
 import re
 
 import sqlalchemy
-from sqlalchemy.orm.exc import NoResultFound
 import time
 
 import logging
 
-import zeeguu.core
 
 from zeeguu.core.model import db
 

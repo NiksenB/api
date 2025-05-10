@@ -1,5 +1,4 @@
 from nltk import SnowballStemmer
-from wordstats import Word, WordInfo
 from zeeguu.core import model
 from zeeguu.core.language.difficulty_estimator_strategy import DifficultyEstimatorStrategy
 from zeeguu.core.util.text import split_words_from_text

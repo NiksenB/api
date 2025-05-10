@@ -6,9 +6,7 @@ from zeeguu.api.app import create_app
 from pprint import pprint
 import os
 
-import stanza
 import time
-import spacy
 
 
 def clear_terminal():

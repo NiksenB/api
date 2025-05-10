@@ -1,7 +1,6 @@
 from unittest import TestCase
 
 import zeeguu.core
-from sqlalchemy.orm.exc import NoResultFound
 
 from zeeguu.core.model import UrlKeyword, Url, DomainName
 from zeeguu.core.test.model_test_mixin import ModelTestMixIn

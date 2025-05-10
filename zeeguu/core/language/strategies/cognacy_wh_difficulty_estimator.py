@@ -1,13 +1,13 @@
 from numpy import mean
-from wordstats import Word, WordInfo
+from wordstats import Word
 from zeeguu.core import model
 from zeeguu.core.language.difficulty_estimator_strategy import DifficultyEstimatorStrategy
 from zeeguu.core.util.text import split_words_from_text
-from zeeguu.core.model import UserWord, Language, WordInteractionHistory
+from zeeguu.core.model import WordInteractionHistory
 from nltk.stem import SnowballStemmer
 from wordstats.cognate_evaluation import CognateEvaluation
 from wordstats.edit_distance import EditDistance
-from collections import defaultdict, Counter
+from collections import Counter
 
 from zeeguu.core.constants import WIH_READ_CLICKED, WIH_READ_NOT_CLICKED_IN_SENTENCE, WIH_READ_NOT_CLICKED_OUT_SENTENCE, \
     WIH_WRONG_EX_TRANSLATE, WIH_WRONG_EX_CHOICE, WIH_WRONG_EX_MATCH

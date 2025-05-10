@@ -2,7 +2,6 @@ from statistics import mean
 
 from sqlalchemy import text
 
-import zeeguu.core
 
 from zeeguu.core.model import db
 

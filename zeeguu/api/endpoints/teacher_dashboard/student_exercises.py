@@ -1,4 +1,3 @@
-import zeeguu.core
 from zeeguu.core.sql.learner.exercises_history import exercises_grouped_by_word
 from zeeguu.core.user_statistics.exercise_corectness import exercise_outcome_stats
 from ._common_api_parameters import (
@@ -7,7 +6,6 @@ from ._common_api_parameters import (
 from .. import api
 from zeeguu.api.utils import json_result, requires_session
 
-from zeeguu.core.model import db
 
 
 @api.route("/student_exercise_correctness", methods=["POST"])

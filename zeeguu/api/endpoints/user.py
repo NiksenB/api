@@ -1,4 +1,3 @@
-import json
 
 import flask
 from zeeguu.api.endpoints.feature_toggles import features_for_user

@@ -405,7 +405,6 @@ def add_topics(new_article, feed, url_keywords, session):
                 t.topic.title for t in new_article.topics
             ]
 
-    from collections import Counter
 
     # Add based on KK neighbours:
     topic_to_assign = get_topic_classification_based_on_similar_content(

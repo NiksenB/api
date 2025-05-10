@@ -5,9 +5,7 @@ from datetime import datetime
 import flask
 import sqlalchemy
 from flask import request
-from sqlalchemy.orm.exc import NoResultFound
 
-import zeeguu.core
 from zeeguu.api.utils.abort_handling import make_error
 from zeeguu.core.model import Cohort, Language, Article, Url, User
 from zeeguu.core.model.cohort_article_map import CohortArticleMap

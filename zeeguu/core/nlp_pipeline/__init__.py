@@ -1,9 +1,7 @@
 from .spacy_wrapper import SpacyWrapper
 from .confusion_generator import NoiseGenerator
 from .automatic_gec_tagging import AutoGECTagging
-from .reduce_context import ContextReducer
 import confusionwords
-from confusionwords import ConfusionSets
 
 # Initialize the models, use the WV.
 SPACY_EN_MODEL = SpacyWrapper("english", False, True)

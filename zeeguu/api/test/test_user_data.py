@@ -1,4 +1,3 @@
-from fixtures import logged_in_client as client
 
 
 def test_set_learned_language(client):

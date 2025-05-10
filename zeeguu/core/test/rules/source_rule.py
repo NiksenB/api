@@ -1,5 +1,3 @@
-from datetime import datetime, timedelta
-from random import randint
 
 from zeeguu.core.test.rules.base_rule import BaseRule
 from zeeguu.core.model.source import Source

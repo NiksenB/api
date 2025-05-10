@@ -6,7 +6,7 @@ import re
 
 import sqlalchemy.orm
 import zeeguu.core
-from sqlalchemy import Column, ForeignKey, Integer, Boolean, func
+from sqlalchemy import Column, Boolean, func
 from sqlalchemy.orm import relationship
 from sqlalchemy.orm.exc import NoResultFound
 

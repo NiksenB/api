@@ -1,7 +1,5 @@
-import sqlalchemy
-import zeeguu.core
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from zeeguu.core.model.user import User
 
 from zeeguu.core.model import db

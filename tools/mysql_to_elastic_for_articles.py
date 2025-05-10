@@ -14,7 +14,6 @@ from zeeguu.core.elastic.settings import ES_ZINDEX, ES_CONN_STRING
 from zeeguu.core.model.article_topic_map import TopicOriginType
 import numpy as np
 from tqdm import tqdm
-import time
 
 app = create_app()
 app.app_context().push()

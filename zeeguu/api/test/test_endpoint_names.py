@@ -1,4 +1,3 @@
-from zeeguu.api.test.fixtures import test_app
 
 
 def test_routes_do_not_end_with_slash(test_app):

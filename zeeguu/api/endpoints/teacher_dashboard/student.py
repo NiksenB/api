@@ -3,7 +3,6 @@ from datetime import timedelta
 from dateutil.utils import today
 from flask import jsonify
 
-import zeeguu.core
 from zeeguu.core.model import User, Cohort
 from ._common_api_parameters import (
     _get_student_cohort_and_period_from_POST_params,
@@ -20,7 +19,6 @@ from zeeguu.api.utils import json_result, requires_session
 from .. import api
 
 
-from zeeguu.core.model import db
 
 
 @api.route("/basic_user_info/<id>", methods=["GET"])
